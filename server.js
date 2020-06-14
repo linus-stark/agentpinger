@@ -40,7 +40,7 @@ app.get('/init' , (req, res) => {
         
     const bot = new Bot()
     const username = 'lil_bot'
-    const paperkey = 'end ramp glad culture awake awkward stone rate sentence tip verb journey crime' 
+    const paperkey = '' 
   
     bot
       .init(username, paperkey, {verbose: false})
@@ -93,7 +93,7 @@ app.get('/init' , (req, res) => {
         
     const bot = new Bot()
     const username = 'lil_bot'
-    const paperkey = 'end ramp glad culture awake awkward stone rate sentence tip verb journey crime' 
+    const paperkey = '' 
   
     bot
       .init(username, paperkey, {verbose: false})
@@ -156,16 +156,7 @@ app.get('/funk' , (req, res) => {
 })
 
 
-var j = schedule.scheduleJob('* * * * 1', function(){
-  console.log('The answer to life, the universe, and everything!');
-  weekpinger()
 
-});
-var m = schedule.scheduleJob('* * 7 * *', function(){
-  console.log('The answer to life, the universe, and everything!');
-  monthpinger()
-
-});
 
 // ================================================================================
 // ROUTER
