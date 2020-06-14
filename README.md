@@ -2,7 +2,7 @@
 
 start with node server.js
 
-# to do list
+# short term to do list
 ### add commands to ping to the bot/not rely on ui
 ### add more customizablity to ping occurance
 ### work on scheduler
