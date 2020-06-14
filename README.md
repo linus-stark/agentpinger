@@ -1,6 +1,11 @@
 # keybasebot
 
-start with node server.js
+## dOrg agent availability keybase bot and app
+
+
+## how to start
+### input paperkey
+### terminal `node server.js`
 
 # short term to do list
 ### add commands to ping to the bot/not rely on ui
