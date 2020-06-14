@@ -3,10 +3,10 @@
 // We are linking our routes to a series of "data" sources.
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 // ===============================================================================
-const Bot = require('../../lib/index.js')
+const Bot = require('../../keybasebot/lib')
 const mysql = require('mysql')
 var tableData = require("../data/tableData");
-
+const pk = 'end ramp glad culture awake awkward stone rate sentence tip verb journey crime'
 const db = mysql.createConnection({
   host:'localhost',
   user: 'root',
@@ -87,7 +87,7 @@ let sql1 = `SELECT * FROM agentlist`;
         
         const bot = new Bot()
         const username = 'lil_bot'
-        const paperkey = 'end ramp glad culture awake awkward stone rate sentence tip verb journey crime' 
+        const paperkey = pk 
       
         bot
           .init(username, paperkey, {verbose: false})
